@@ -9,8 +9,6 @@ function addOnePointHome() {
     homePts.textContent = homeScore;
 }
 
-f
-
 function addOnePointGuest() {
     guestScore += 1;
     guestPts.textContent = guestScore;
