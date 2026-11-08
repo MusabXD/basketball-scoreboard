@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Digital Display";
+    src: url("fonts/Digital-Display.woff2") format("woff2"),
+        url("fonts/Digital-Display.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#scoreboard {
+    background-color: #062A8B;
+    padding: 20px 0 20px 0;
+    width: 800px;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    border: 7px solid white;
+    outline: 10px solid #062A8B;
+    margin-bottom: -10px;
+    border-radius: 8px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-score, #guest-score {
+    font-family: "Digital Display";
+    font-size: 180px;
+    font-weight: 400;
+    background-color: black;
+    color: #FFD900;
+    width: 270px;
+    height: 140px;
+    padding: 20px 20px 0 0;
+    text-align: end;
+    margin-top: -45px;
+    margin-bottom: 25px;
+}
+
+.add-button {
+    padding: 20px;
+    font-size: 30px;
+    margin: 5px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: #062A8B;
+}
+
+.add-button:hover {
+    padding: 20px;
+    font-size: 30px;
+    margin: 5px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: #061e60;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 0.8;
+}
+
+a {
+    color: white;
+}

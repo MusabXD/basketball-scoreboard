@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="scoreboard">
+
+            <div class="team" id="home">
+                <h1>HOME</h1>
+                <h1 id="home-score">0</h1>
+                <div>
+                    <button class="add-button" onclick="addOnePointHome()">+1</button>
+                    <button class="add-button" onclick="addTwoPointsHome()">+2</button>
+                    <button class="add-button" onclick="addThreePointsHome()">+3</button>
+                </div>
+            </div>
+
+            <div class="team" id="guest">
+                <h1>GUEST</h1>
+                <h1 id="guest-score">0</h1>
+                <div>
+                    <button class="add-button" onclick="addOnePointGuest()">+1</button>
+                    <button class="add-button" onclick="addTwoPointsGuest()">+2</button>
+                    <button class="add-button" onclick="addThreePointsGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p class="footer">Made by <a href="https://github.com/MusabXD">Musab Sagri</a></p>
+        <p class="footer">Website made as part of the JavaScript Course provided by <a href="https://scrimba.com/">Scrimba</a></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
